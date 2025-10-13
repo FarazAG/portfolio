@@ -95,6 +95,12 @@ const projects: Projects[] = [
     ],
     link: "https://github.com/FarazAG/nextjs-prisma-betterauth",
   },
+  {
+    title: "PingForge",
+    desc: "Real-time website monitoring dashboard with live uptime tracking, response-time logs, and performance charts.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    link: "https://pingforge.vercel.app/dashboard",
+  },
 ];
 
 const socials: Socials[] = [
