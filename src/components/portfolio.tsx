@@ -45,6 +45,7 @@ const skills: Skills[] = [
   { name: "CSS3", logo: "/logos/css3-logo.svg" },
   { name: "JavaScript", logo: "/logos/javascript-logo.svg" },
   { name: "TypeScript", logo: "/logos/typescript-logo.svg" },
+  { name: "Go", logo: "/logos/go-original.svg" },
   { name: "React", logo: "/logos/react-logo.svg" },
   { name: "Next.js", logo: "/logos/nextjs-plain-logo.svg" },
   { name: "Redux", logo: "/logos/redux-logo.svg" },
@@ -83,6 +84,18 @@ const projects: Projects[] = [
     link: "#",
   },
   {
+    title: "Journal App",
+    desc: "A personal journal with user authentication and rich-text entries. Users can create, edit, and save private entries with persistent storage.",
+    tags: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "TipTap",
+      "Supabase (Auth & Database)",
+    ],
+    link: "https://github.com/FarazAG/journal-app",
+  },
+  {
     title: "Authentication System",
     desc: "Built a complete authentication system with sign-up, sign-in, session management, and protected routes using Better Auth.",
     tags: [
@@ -100,6 +113,12 @@ const projects: Projects[] = [
     desc: "Real-time website monitoring dashboard with live uptime tracking, response-time logs, and performance charts.",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
     link: "https://pingforge.vercel.app/dashboard",
+  },
+  {
+    title: "File Info CLI Tool",
+    desc: "A Go CLI tool that reads a file and returns line count, word count, character count, size, modification time, and directory info. Demonstrates use of modules, packages, file handling, scanners, and command parsing.",
+    tags: ["Go", "CLI", "File Handling", "Modules", "Command Parsing"],
+    link: "https://github.com/FarazAG/file-reader-cli",
   },
 ];
 
