@@ -147,7 +147,7 @@ export default function Portfolio() {
             Syed Faraz Ali Gilani
           </h1>
           <h2 className="text-xs md:text-sm text-gray-400 ps-1 ">
-            Front-end Developer
+            Full-Stack Developer
           </h2>
         </div>
         <ModeToggle />
@@ -237,20 +237,20 @@ export default function Portfolio() {
                     Hello there!
                   </CardTitle>
                   <CardDescription>
-                    Building things that work and make sense.
+                    Crafting clean, functional web apps.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="mb-5 text-foreground/90">
-                    I’m a frontend developer working with Next.js and
-                    TypeScript, focused on clarity, structure, and performance.
-                    I care about predictable code, clean design logic, and
-                    systems that stay easy to maintain as they grow.
+                    I specialize in the Next.js and React ecosystem, building
+                    end-to-end web applications that prioritize type-safety,
+                    performance, and maintainability. I focus on writing clean
+                    code and creating systems that remain easy to scale.
                   </p>
                   <p className="text-foreground/90">
-                    Comfortable across the stack, I handle both the interface
-                    and the underlying logic that keeps everything fast and
-                    reliable.
+                    I manage the full development cycle, covering everything
+                    from efficient database architecture to the development of
+                    responsive, accessible interfaces.
                   </p>
                   <Separator className="my-6 dark:bg-gray-600/50  bg-gray-400" />
                   <h3 className="font-semibold text-lg mb-6 text-foreground/80">
@@ -262,8 +262,8 @@ export default function Portfolio() {
                     </div>
 
                     <h3 className="text-sm md:text-base text-foreground/80">
-                      Full-stack workflows powered by Next.js and modern backend
-                      stacks.
+                      Developing scalable full-stack applications with a focus
+                      on type-safe architecture.
                     </h3>
                   </div>
                 </CardContent>
@@ -438,7 +438,7 @@ export default function Portfolio() {
       </nav>
       {/* Footer */}
       <footer className="mt-20 pt-8 border-t text-center text-sm  dark:border-gray-900 text-gray-500 mb-10">
-        <p>© 2025 Syed Faraz Ali Gilani. All rights reserved.</p>
+        <p>© 2026 Syed Faraz Ali Gilani. All rights reserved.</p>
       </footer>
     </div>
   );
